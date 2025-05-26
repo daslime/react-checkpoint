@@ -28,15 +28,10 @@ function App() {
               <Card className="mb-4">
                 <Card.Img
                   variant="top"
-                  as="svg"
-                  viewBox="0 0 400 200"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="100%" height="100%" fill="#198754"/>
-                  <text x="50%" y="50%" fill="white" textAnchor="middle" dominantBaseline="middle" fontSize="40">
-                    Silicon Savannah
-                  </text>
-                </Card.Img>
+                  src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80"
+                  alt="Modern tech office space"
+                  style={{ height: '200px', objectFit: 'cover' }}
+                />
                 <Card.Body>
                   <Card.Title>Tech Hub of East Africa</Card.Title>
                   <Card.Text>
@@ -50,15 +45,10 @@ function App() {
               <Card className="mb-4">
                 <Card.Img
                   variant="top"
-                  as="svg"
-                  viewBox="0 0 400 200"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="100%" height="100%" fill="#dc3545"/>
-                  <text x="50%" y="50%" fill="white" textAnchor="middle" dominantBaseline="middle" fontSize="40">
-                    M-PESA Innovation
-                  </text>
-                </Card.Img>
+                  src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80"
+                  alt="Mobile payment"
+                  style={{ height: '200px', objectFit: 'cover' }}
+                />
                 <Card.Body>
                   <Card.Title>Mobile Innovation</Card.Title>
                   <Card.Text>
@@ -72,15 +62,10 @@ function App() {
               <Card className="mb-4">
                 <Card.Img
                   variant="top"
-                  as="svg"
-                  viewBox="0 0 400 200"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect width="100%" height="100%" fill="#0d6efd"/>
-                  <text x="50%" y="50%" fill="white" textAnchor="middle" dominantBaseline="middle" fontSize="40">
-                    Tech Education
-                  </text>
-                </Card.Img>
+                  src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80"
+                  alt="Coding bootcamp"
+                  style={{ height: '200px', objectFit: 'cover' }}
+                />
                 <Card.Body>
                   <Card.Title>Growing Tech Talent</Card.Title>
                   <Card.Text>
